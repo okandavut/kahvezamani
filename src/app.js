@@ -14,7 +14,7 @@ function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Kahveler" component={CoffeeListScreen} />
+        <Tab.Screen name="Kahveler" component={CoffeeListScreen}  />
         <Tab.Screen name="Kahve Tarihi" component={CoffeeHistoryScreen} />
       </Tab.Navigator>
     </NavigationContainer>

@@ -14,7 +14,7 @@ const historyOfCoffee = data.COFFEEHISTORY;
 function CoffeeHistoryScreen() {
   return (
     <View style={styles.container}>
-      <ScrollView contentContainerStyle={{paddingTop: 30}}>
+      <ScrollView>
         <Text style={styles.title}>Kahve Tarihi</Text>
         <Text style={styles.title}>{historyOfCoffee}</Text>
       </ScrollView>

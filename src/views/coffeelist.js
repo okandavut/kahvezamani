@@ -9,7 +9,12 @@ import {
   TouchableOpacity,
   TouchableHighlight,
 } from 'react-native';
-import {Avatar, Button, Card, Title, Paragraph} from 'react-native-paper';
+
+import {Button} from 'react-native-elements';
+
+import Icon from 'react-native-vector-icons/FontAwesome';
+
+import {Avatar, Card, Title, Paragraph} from 'react-native-paper';
 
 import {createStackNavigator} from '@react-navigation/stack';
 
@@ -33,17 +38,15 @@ function CoffeeListScreen({navigation}) {
             }}
           />
           <Card.Actions>
-            <View>
-              <Button
-                title="Go to Details"
-                onPress={() => {
-                  /* 1. Navigate to the Details route with params */
-                  navigation.navigate('Detail', {
-                    coffeeTitle: data.title,
-                  });
-                }}
-              />
-            </View>
+            <Button
+              icon={<Icon name="coffee" size={14} style={{ marginRight: 5, marginTop:2}} color="white" />}
+              onPress={() => {
+                navigation.navigate('Detail', {
+                  coffeeTitle: data.title,
+                });
+              }}
+              title="Kahve Bilgisi ve Yapılışı"
+            />
           </Card.Actions>
         </Card>
       </View>
@@ -59,7 +62,11 @@ function CoffeeListScreen({navigation}) {
 function CoffeeListStack() {
   return (
     <HomeStack.Navigator>
-      <HomeStack.Screen name="Home" component={CoffeeListScreen} />
+      <HomeStack.Screen
+        name="Home"
+        component={CoffeeListScreen}
+        options={{title: 'Kahveler'}}
+      />
       <HomeStack.Screen name="Detail" component={CoffeeDetailScreen} />
     </HomeStack.Navigator>
   );
