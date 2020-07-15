@@ -3,47 +3,56 @@
         {
             "title": "Espresso",
             "content": "Neredeyse tüm kahveler espresso bazlı yapılır, üzerine süt ve su eklenerek hazırlanır. Tek başına shot olarak içilen espresso, makinelerde belirli bir oranda basınç ve yüksek ısıda suyla 25-30 ml. arası bir miktarda bardağa dökülür. ",
-            "image": "https://cdn.shopify.com/s/files/1/2714/0802/files/taftcoffee_espresso_nedir_espresso_nasil_yapilirM_large.jpg?v=1556018683"
+            "image": "https://cdn.shopify.com/s/files/1/2714/0802/files/taftcoffee_espresso_nedir_espresso_nasil_yapilirM_large.jpg?v=1556018683",
+            "make" : "Espresso söyle söyle yapılır"
         },
         {
             "title": "Cafe Latte",
             "content": "Bu kahveyi baristaların süt köpüğünü eklerken desenler çizerek gönlümüzü çalmasıyla daha çok sevmeye başladık. Bir espresso shot üzerine buharlanmış süt ve isteğe bağlı süt köpüğü ekleyerek hazırlanan Cafe Latte, Türkiye’de en çok tercih edilen iki sütlü kahveden biri.",
-            "image": "https://www.diyetkolik.com/site_media/media/nutrition_images/latte-yagsiz-sut-ile.jpg"
+            "image": "https://www.diyetkolik.com/site_media/media/nutrition_images/latte-yagsiz-sut-ile.jpg",
+            "make" : "Espresso söyle söyle yapılır"
         },
         {
             "title": "Latte Macchiato",
             "content": "“Lekeli süt” anlamına gelen Latte Macchiato, sütün üzerine espresso dökülürken lekeler oluştuğu için bu isimle anılıyor. Genelde üzerine kakao dökülerek servis edilen bu kahvede kullanılan süt yoğunlaştırılarak hazırlanıyor.",
-            "image": "https://www.tchibo.de/newmedia/art_img/MAIN-IMPORTED/84de15c69ea321cb/2-adet-barista-latte-macchiato-bardagi.jpg"
+            "image": "https://www.tchibo.de/newmedia/art_img/MAIN-IMPORTED/84de15c69ea321cb/2-adet-barista-latte-macchiato-bardagi.jpg",
+            "make" : "Espresso söyle söyle yapılır"
         },
         {
             "title": "Karamel Macchiato",
             "content": "Latte Macchiato’dan tek farkı karamel tadı olan Karamel Macchiato, ilk olarak karamel şurubunun üzerine buharlanmış süt ekledikten sonra espresso ilave ederek hazırlanıyor. Daha tatlı bir kahve isterseniz üzerine krema ve karamel sosu ekleyebilirsiniz.",
-            "image": "https://www.diyetkolik.com/site_media/media/nutrition_images/macchiato.jpg"
+            "image": "https://www.diyetkolik.com/site_media/media/nutrition_images/macchiato.jpg",
+            "make" : "Espresso söyle söyle yapılır"
         },
         {
             "title": "Flat White",
             "content": "Diğer kahveler gibi özünde espresso shot barındıran Flat White, sahip olduğu tat açısından hafif kahve sevenlerin tercihi. Çünkü espressonun üzerine eklenen süt pürüzsüz olana kadar işlem görüyor.",
-            "image": "https://www.cafeservus.com/wp-content/uploads/2019/03/Flat-White.jpg"
+            "image": "https://www.cafeservus.com/wp-content/uploads/2019/03/Flat-White.jpg",
+            "make" : "Espresso söyle söyle yapılır"
         },
         {
             "title": "Cappuccino",
             "content": "Sıcaklığını koruması açısından porselen fincanda servis edilen Cappuccino, espresso shot üzerine sıcak süt ve süt köpüğü eklenerek hazırlanır. Çok tercih edilmesi kahve dükkanları dışında birçok kafe ve restoranda rahatça bulabilmemizden kaynaklanıyor.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cappuccino_at_Sightglass_Coffee.jpg/1280px-Cappuccino_at_Sightglass_Coffee.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cappuccino_at_Sightglass_Coffee.jpg/1280px-Cappuccino_at_Sightglass_Coffee.jpg",
+            "make" : "Espresso söyle söyle yapılır"
         },
         {
             "title": "Double Espresso Doppio",
             "content": "“Espresso beni kesmez, daha sertini getirin!” diyenler için hazırlanan Doppio, sadece iki espresso shot ile hazırlanıyor. İki shot olması açısından Americano’dan da sert bir tada sahip olan bu kahvemiz sabah saatlerinde güçlü bir uyandırıcı niteliğinde.",
-            "image": "https://66.media.tumblr.com/d513fa3b4faa873684a9941d9a411864/tumblr_njpdmqFRlm1ungxeyo1_500.jpg"
+            "image": "https://66.media.tumblr.com/d513fa3b4faa873684a9941d9a411864/tumblr_njpdmqFRlm1ungxeyo1_500.jpg",
+            "make" : "Espresso söyle söyle yapılır"
         },
         {
             "title": "Irish Coffee",
             "content": "Alkollü kahvelerin en sevilenlerinden Irish Coffee’nin içeriğinde İrlanda viskisi bulunuyor. Herkesin damak tadına hitap etmeyen bir tada sahip olan bu kahvenin hayranları başka kahveyi içemiyor desek yeri.",
-            "image": "https://4.bp.blogspot.com/-dNsdGCn0kvM/WmWYoskT_SI/AAAAAAAAA6w/9y0y5JgJk-QjRGZXtFVFIiujHtkvQEVFgCLcBGAs/s1600/Irish-Coffee-Recipe-%2BTarifi-%2BKahveKafeBlogspotCom.jpg"        
+            "image": "https://4.bp.blogspot.com/-dNsdGCn0kvM/WmWYoskT_SI/AAAAAAAAA6w/9y0y5JgJk-QjRGZXtFVFIiujHtkvQEVFgCLcBGAs/s1600/Irish-Coffee-Recipe-%2BTarifi-%2BKahveKafeBlogspotCom.jpg"        ,
+            "make" : "Espresso söyle söyle yapılır"
         },
         {
             "title": "Americano",
             "content": "Filtre kahveye benzeyen ancak kahve oranının fazla olmasıyla bir miktar daha sert olan Americano, bir shot espressonun üzerine su eklenmesiyle hazırlanıyor. Sertlik derecesini içindeki kahve ve su miktarıyla orantılı olarak ayarlayabilirsiniz.",
-            "image": "https://d2lswn7b0fl4u2.cloudfront.net/photos/pg-recipes-americano-1571757341897.jpg"
+            "image": "https://d2lswn7b0fl4u2.cloudfront.net/photos/pg-recipes-americano-1571757341897.jpg",
+            "make" : "Espresso söyle söyle yapılır"
         }
     ],
     "COFFEEHISTORY": "Kahvenin keşfi En fazla anlatılan efsaneye göre, Habeşistan (Etiyopya) orijinli olan kahveyi ilk keşfeden canlılar “keçi”lerdir. Rivayete göre, keçi ve deve sürülerinin çobanları güttükleri hayvanların garip bir ağacın meyvelerini yedikten sonra, daha canlı, hareketli olduklarını görünce, ”bunda bir hikmet var” diyerek durumu dervişleri Şazili’ye bildirmişler. Bu meyvenin suyunu kaynatıp içen Şazili’nin kendisi de aynı canlılığı duymuş ve kahvenin meziyetleri böylece anlaşılmış. Cezayir kaynaklarına göre, kahveyi keşfedenler arasında Şazili’yle birlikte İdris adıda geçiyor. Hatta, ilk zamanlarda kahveye “Şazili” adı verilmiştir. Fakat kahve ağacının meyvalarının bugünkü anlamda sulu bir içecek haline dönüşmesi, ilk kez Yemen’de olmuş. İlk defa Sufiler kahve içmişler. İbadet ve zikir sırasında özellikle akşamları okurken uyanık kalabilmek için.",

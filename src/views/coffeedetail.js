@@ -8,17 +8,31 @@ import {
   View,
   TouchableOpacity,
 } from 'react-native';
+
+import {Image} from 'react-native-elements';
+
 import data from '../../mockdata/data.json';
+
+const makingCoffee = data.CONTENT;
 
 function CoffeeDetailScreen({route, navigation}) {
   const {coffeeTitle} = route.params;
+
+  const lapsList = makingCoffee.filter((data) => {
+    return data.title == coffeeTitle ? data : '';
+  });
+
+  console.log(lapsList[0].make);
+
   return (
-    <View style={styles.container}>
-      <ScrollView>
-        <Text>{coffeeTitle}</Text>
-        <Text>{coffeeTitle} isimli kahvenin yapılışı ve diğer bilgileri burada olacak.</Text>
-      </ScrollView>
-    </View>
+    <ScrollView>
+      <View style={styles.container}>
+        <Text>{lapsList[0].title}</Text>
+        <Image source={{uri:lapsList[0].image }} style={{width: 200, height: 200}} />
+        <Text>{lapsList[0].content}</Text>
+        <Text>{lapsList[0].make}</Text>
+      </View>
+    </ScrollView>
   );
 }
 
