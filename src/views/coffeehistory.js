@@ -11,6 +11,7 @@ import {
 import data from '../../mockdata/data.json';
 
 const historyOfCoffee = data.COFFEEHISTORY;
+
 function CoffeeHistoryScreen() {
   return (
     <View style={styles.container}>

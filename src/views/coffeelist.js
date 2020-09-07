@@ -1,5 +1,5 @@
 /* eslint-disable react-native/no-inline-styles */
-import React, {Component, useState} from 'react';
+import React, { Component, useState } from "react";
 import {
   Switch,
   ScrollView,
@@ -8,24 +8,24 @@ import {
   View,
   TouchableOpacity,
   TouchableHighlight,
-} from 'react-native';
+} from "react-native";
 
-import {Button} from 'react-native-elements';
+import { Button } from "react-native-elements";
 
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from "react-native-vector-icons/FontAwesome";
 
-import {Avatar, Card, Title, Paragraph} from 'react-native-paper';
+import { Avatar, Card, Title, Paragraph } from "react-native-paper";
 
-import {createStackNavigator} from '@react-navigation/stack';
+import { createStackNavigator } from "@react-navigation/stack";
 
-import data from '../../mockdata/data.json';
-import CoffeeDetailScreen from './coffeedetail';
+import data from "../../mockdata/data.json";
+import CoffeeDetailScreen from "./coffeedetail";
 
 const CONTENT = data.CONTENT;
 
 const HomeStack = createStackNavigator();
 
-function CoffeeListScreen({navigation}) {
+function CoffeeListScreen({ navigation }) {
   const lapsList = CONTENT.map((data) => {
     return (
       <View style={styles.card}>
@@ -39,9 +39,16 @@ function CoffeeListScreen({navigation}) {
           />
           <Card.Actions>
             <Button
-              icon={<Icon name="coffee" size={14} style={{ marginRight: 5, marginTop:2}} color="white" />}
+              icon={
+                <Icon
+                  name="coffee"
+                  size={14}
+                  style={{ marginRight: 5, marginTop: 2 }}
+                  color="white"
+                />
+              }
               onPress={() => {
-                navigation.navigate('Detail', {
+                navigation.navigate("Detail", {
                   coffeeTitle: data.title,
                 });
               }}
@@ -65,7 +72,7 @@ function CoffeeListStack() {
       <HomeStack.Screen
         name="Home"
         component={CoffeeListScreen}
-        options={{title: 'Kahveler'}}
+        options={{ title: "Kahveler" }}
       />
       <HomeStack.Screen name="Detail" component={CoffeeDetailScreen} />
     </HomeStack.Navigator>
@@ -76,6 +83,6 @@ export default CoffeeListStack;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F5FCFF',
-  }
+    backgroundColor: "#F5FCFF",
+  },
 });
