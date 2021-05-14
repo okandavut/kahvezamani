@@ -42,10 +42,9 @@ function CoffeeListScreen({ navigation }) {
           {data.title}
           </Text>
         }
+        
           <Card.Cover
-            source={{
-              uri: data.image,
-            }}
+            source={require(data.image)}
           />
            <Icon
               name="arrow-right"

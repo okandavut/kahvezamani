@@ -3,7 +3,7 @@
         {
             "title": "Espresso",
             "content": "Neredeyse tüm kahveler espresso bazlı yapılır, üzerine süt ve su eklenerek hazırlanır. Tek başına shot olarak içilen espresso, makinelerde belirli bir oranda basınç ve yüksek ısıda suyla 25-30 ml. arası bir miktarda bardağa dökülür. ",
-            "image": "https://cdn.shopify.com/s/files/1/2714/0802/files/taftcoffee_espresso_nedir_espresso_nasil_yapilirM_large.jpg?v=1556018683",
+            "image": "../img/espresso.png",
             "detailImage":"https://www.tchibo.com.tr/newmedia/art_img/MAIN-IMPORTED/f5e5f06b19deab34/barista-espresso-kasigi-4-adet.jpg",
             "make" : "Kahve, makinenin haznesine (portafiltre) yerleştirip sıkıştırılır. Ardından önceden ısıtılmış bardak yerleştirilir ve 30 ml su kahveden geçirilerek yarım dakika kadar süzülmesi beklenir. Böylece bir porsiyon espresso elde edilir."
         },
