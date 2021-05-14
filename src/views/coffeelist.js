@@ -42,9 +42,10 @@ function CoffeeListScreen({ navigation }) {
           {data.title}
           </Text>
         }
-        
           <Card.Cover
-            source={require(data.image)}
+            source={{
+              uri: data.image,
+            }}
           />
            <Icon
               name="arrow-right"
@@ -72,7 +73,7 @@ function CoffeeListStack() {
       <HomeStack.Screen
         name="Home"
         component={CoffeeListScreen}
-        options={{ title: "Kahveler" }}
+        options={{ title: "Kahveler"}}
       />
       <HomeStack.Screen name="Detail" component={CoffeeDetailScreen} />
     </HomeStack.Navigator>
@@ -117,7 +118,7 @@ const styles = StyleSheet.create({
   },
   goDetailArrow: {
     position:"absolute",
-    paddingLeft:"90%",
-    paddingTop:"23%"
+    paddingLeft:"92%",
+    paddingTop:"38%"
   }
 });

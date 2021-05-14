@@ -25,49 +25,27 @@ function CoffeeDetailScreen({route, navigation}) {
   return (
     <ScrollView>
       <View style={styles.container}>
-        <View style={styles.bodyContainer}>
+        
           <Image
             source={{uri: lapsList[0].detailImage}}
             style={{width: 500, height: 400}}
           />
-          <View
-            style={{
-              paddingVertical: 15,
-              paddingHorizontal: 10,
-              flexDirection: 'row',
-              justifyContent: 'space-between',
-              alignItems: 'center',
-            }}>
+          <View style={styles.bodyContainer}>
             <Text
               style={{
-                fontSize: 25,
+                fontSize: 20,
                 color: 'black',
+                paddingTop:10,
+                fontWeight:"bold"
               }}>
               {lapsList[0].title}
             </Text>
-            <Icon
-              name="coffee"
-              size={25}
-              style={{marginLeft: 15, marginTop: 2}}
-              color="black"
-            />
+            <Text  textBreakStrategy='highQuality' style={{marginVertical: 15}}>{lapsList[0].content}</Text>
+            <Text style={{marginVertical: 15, fontWeight:'bold'}}>Yapılışı</Text>
+            <Text textBreakStrategy='highQuality'>{lapsList[0].make}</Text>
           </View>
-          <Hr
-            lineColor="#000"
-            width={1}
-            text="Nedir?"
-            textStyles={styles.customStylesHere}
-          />
-          <Text style={{marginVertical: 15}}>{lapsList[0].content}</Text>
-          <Hr
-            lineColor="#000"
-            width={1}
-            text="Yapılışı"
-            textStyles={styles.customStylesHere}
-          />
-          <Text>{lapsList[0].make}</Text>
+        
         </View>
-      </View>
     </ScrollView>
   );
 }
@@ -79,9 +57,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   bodyContainer: {
-    flex: 1,
-    backgroundColor: '#FFF',
-    alignItems: 'center',
+   
     paddingBottom: 15,
     paddingRight: 15,
     paddingLeft: 15,

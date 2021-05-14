@@ -5,39 +5,20 @@ import 'react-native-gesture-handler';
 import {NavigationContainer} from '@react-navigation/native';
 import MaterialIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {createStackNavigator} from '@react-navigation/stack';
 
 import CoffeeListScreen from './views/coffeelist';
 import CoffeeHistoryScreen from './views/coffeehistory';
 
 
-const Tab = createBottomTabNavigator();
+const AppStack = createStackNavigator();
+
 function App() {
   return (
     <NavigationContainer>
-      <Tab.Navigator
-      screenOptions={({ route }) => ({
-        tabBarIcon: ({ focused, color, size }) => {
-          let iconName;
-
-          if (route.name === 'Kahveler') {
-            iconName = focused
-              ? 'coffee'
-              : 'coffee-outline';
-          } else if (route.name === 'Kahve Tarihi') {
-            iconName = 'history';
-          }
-
-          return <MaterialIcon name={iconName} size={size} color={color} />;
-        },
-      })}
-      tabBarOptions={{
-        activeTintColor: 'black',
-        inactiveTintColor: 'gray',
-      }}>
-        <Tab.Screen name="Kahveler" component={CoffeeListScreen}    />
-        <Tab.Screen name="Kahve Tarihi" component={CoffeeHistoryScreen}   />
-      </Tab.Navigator>
+      <AppStack.Navigator >
+        <AppStack.Screen name="Kahveler" component={CoffeeListScreen} options={{ headerShown:false}}   /> 
+      </AppStack.Navigator>
     </NavigationContainer>
   );
 }
