@@ -4,54 +4,63 @@
             "title": "Espresso",
             "content": "Neredeyse tüm kahveler espresso bazlı yapılır, üzerine süt ve su eklenerek hazırlanır. Tek başına shot olarak içilen espresso, makinelerde belirli bir oranda basınç ve yüksek ısıda suyla 25-30 ml. arası bir miktarda bardağa dökülür. ",
             "image": "https://cdn.shopify.com/s/files/1/2714/0802/files/taftcoffee_espresso_nedir_espresso_nasil_yapilirM_large.jpg?v=1556018683",
+            "detailImage":"https://www.tchibo.com.tr/newmedia/art_img/MAIN-IMPORTED/f5e5f06b19deab34/barista-espresso-kasigi-4-adet.jpg",
             "make" : "Kahve, makinenin haznesine (portafiltre) yerleştirip sıkıştırılır. Ardından önceden ısıtılmış bardak yerleştirilir ve 30 ml su kahveden geçirilerek yarım dakika kadar süzülmesi beklenir. Böylece bir porsiyon espresso elde edilir."
         },
         {
             "title": "Cafe Latte",
             "content": "Bu kahveyi baristaların süt köpüğünü eklerken desenler çizerek gönlümüzü çalmasıyla daha çok sevmeye başladık. Bir espresso shot üzerine buharlanmış süt ve isteğe bağlı süt köpüğü ekleyerek hazırlanan Cafe Latte, Türkiye’de en çok tercih edilen iki sütlü kahveden biri.",
-            "image": "https://www.diyetkolik.com/site_media/media/nutrition_images/latte-yagsiz-sut-ile.jpg",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwGn3oAM1DHisijFhOxVJ-w6QxsUIAgbRpA&usqp=CAU",
+            "detailImage":"https://www.hataykunefedunyasi.com/wp-content/uploads/2020/10/cafe-latte-min.png",
             "make" : "En güzel makine aracılığıyla yapılsa da evde de hazırlanabilir. Buradaki basit yöntem için french press, çırpıcı, süt, espresso kahvesi yeterlidir. French press içine 1 ölçek (8 gram) kahve ve latte içilecek bardak ölçeğinde su koyulup demlenmeye bırakılır. Kaynatılan 250 ml süt mikser yardımıyla köpükler oluşuncaya kadar çırpılır. Süt bardağa, köpük ve espresso için boşluk bırakılarak doldurulur. Ardından kenarlardan daire şeklinde dökülerek süte espresso eklenir. Son olarak kaşık yardımı ile üzerine süt köpüğü koyulur."
         },
         {
             "title": "Latte Macchiato",
             "content": "“Lekeli süt” anlamına gelen Latte Macchiato, sütün üzerine espresso dökülürken lekeler oluştuğu için bu isimle anılıyor. Genelde üzerine kakao dökülerek servis edilen bu kahvede kullanılan süt yoğunlaştırılarak hazırlanıyor.",
-            "image": "https://www.tchibo.de/newmedia/art_img/MAIN-IMPORTED/84de15c69ea321cb/2-adet-barista-latte-macchiato-bardagi.jpg",
+            "image": "https://cdn-rdb.arla.com/Files/arla-uk/513704542/5d4e44e5-978f-489a-95cf-59f2cda1b1b7.jpg?mode=crop&w=1200&h=630&scale=both&format=jpg&quality=80&ak=629ae667&hm=a9611288",
+            "detailImage":"https://www.tchibo.com.tr/newmedia/art_img/MAIN/bf5ec0f23988f10f/latte-macchiato-bardagi.jpg",
             "make" : "Yakında eklenecek..."
         },
         {
             "title": "Karamel Macchiato",
             "content": "Latte Macchiato’dan tek farkı karamel tadı olan Karamel Macchiato, ilk olarak karamel şurubunun üzerine buharlanmış süt ekledikten sonra espresso ilave ederek hazırlanıyor. Daha tatlı bir kahve isterseniz üzerine krema ve karamel sosu ekleyebilirsiniz.",
-            "image": "https://www.diyetkolik.com/site_media/media/nutrition_images/macchiato.jpg",
+            "image": "https://t3.ftcdn.net/jpg/01/31/06/30/360_F_131063001_CZpK2USJpVef4pqiCiIwpv6i4gocIgEK.jpg",
+            "detailImage":"https://img-s3.onedio.com/id-5c77e804cc1ba0742cc3f1d2/rev-0/w-900/h-596/f-jpg/s-f16bf648ebfae286d298f4579a26c216ef6b3d88.jpg",
             "make" : "Yakında eklenecek..."
         },
         {
             "title": "Flat White",
             "content": "Diğer kahveler gibi özünde espresso shot barındıran Flat White, sahip olduğu tat açısından hafif kahve sevenlerin tercihi. Çünkü espressonun üzerine eklenen süt pürüzsüz olana kadar işlem görüyor.",
-            "image": "https://www.cafeservus.com/wp-content/uploads/2019/03/Flat-White.jpg",
+            "image": "https://cdn.shopify.com/s/files/1/1470/2456/articles/FlatWhite_Latte_Twitter-min_1400x.progressive.jpg?v=1618389401",
+            "detailImage":"https://www.bikahvebikeyif.com/wp-content/uploads/2018/04/flat-white-tarif-.jpg",
             "make" : "Evde flat white hazırlamak için öncelikle fincan ısıtılır. Fincanın büyüklüğüne göre bir ya da iki shot espresso kullanılabilir. Kahvenin üçte bir kadar süt yoğun bir köpük oluşturulana kadar köpürtülür. Süt kabı hafifçe tezgaha vurularak yüzeydeki büyük kabarcıklardan kurtulunur. Süt, fincandaki espresso üzerine tek bir noktadan dökülür, böylece süt kremasıyla birbirine tamamen karışır."
         },
         {
             "title": "Cappuccino",
             "content": "Sıcaklığını koruması açısından porselen fincanda servis edilen Cappuccino, espresso shot üzerine sıcak süt ve süt köpüğü eklenerek hazırlanır. Çok tercih edilmesi kahve dükkanları dışında birçok kafe ve restoranda rahatça bulabilmemizden kaynaklanıyor.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cappuccino_at_Sightglass_Coffee.jpg/1280px-Cappuccino_at_Sightglass_Coffee.jpg",
+            "image": "https://blog.ofix.com/wp-content/uploads/2019/12/iyi_bir_cappuccino_hazirlamanin_puf_noktalari_nelerdir_ofix_blog.jpg",
+            "detailImage":"https://www.haberso.com/sites/367/uploads/2020/12/03/large/7ed604d6b901e3ef-1606998940.jpg?",
             "make" : "Espresso makinesiyle yapmak için fincanın üçte birini dolduracak kadar kahve hazırlanır. Ardından süt eklenir ve üzerine köpükle son dokunuş yapılır. Evde de birçok farklı yöntemle hazırlanabilen cappucino için hazır kahveler de kullanılabilir."
         },
         {
             "title": "Double Espresso Doppio",
             "content": "“Espresso beni kesmez, daha sertini getirin!” diyenler için hazırlanan Doppio, sadece iki espresso shot ile hazırlanıyor. İki shot olması açısından Americano’dan da sert bir tada sahip olan bu kahvemiz sabah saatlerinde güçlü bir uyandırıcı niteliğinde.",
-            "image": "https://66.media.tumblr.com/d513fa3b4faa873684a9941d9a411864/tumblr_njpdmqFRlm1ungxeyo1_500.jpg",
+            "image": "https://coffeeaffection.com/wp-content/uploads/2019/02/delicious-shots-of-espresso.jpg",
+            "detailImage":"https://coffeeaffection.com/wp-content/uploads/2021/01/double-espresso.jpg",
             "make" : "Yakında eklenecek..."
         },
         {
             "title": "Irish Coffee",
             "content": "Alkollü kahvelerin en sevilenlerinden Irish Coffee’nin içeriğinde İrlanda viskisi bulunuyor. Herkesin damak tadına hitap etmeyen bir tada sahip olan bu kahvenin hayranları başka kahveyi içemiyor desek yeri.",
             "image": "https://4.bp.blogspot.com/-dNsdGCn0kvM/WmWYoskT_SI/AAAAAAAAA6w/9y0y5JgJk-QjRGZXtFVFIiujHtkvQEVFgCLcBGAs/s1600/Irish-Coffee-Recipe-%2BTarifi-%2BKahveKafeBlogspotCom.jpg"        ,
+            "detailImage":"https://images.themagger.net/wp-content/uploads/2020/02/Irish-Coffee-Alternatif-1200x800.jpg",
             "make" : "İrlanda viskisi, filtre kahve, esmer şeker ve krema ile hazırlanmaktadır. 1 çay kaşığı esmer şeker ve viski bardağa dökülüp karıştırılır. Kahve eklenir ve karıştırmaya devam edilir. Sonunda yoğun kıvamlı krema karışımın üzerine katman oluşturacak şekilde eklenir ve servis edilir."
         },
         {
             "title": "Americano",
             "content": "Filtre kahveye benzeyen ancak kahve oranının fazla olmasıyla bir miktar daha sert olan Americano, bir shot espressonun üzerine su eklenmesiyle hazırlanıyor. Sertlik derecesini içindeki kahve ve su miktarıyla orantılı olarak ayarlayabilirsiniz.",
-            "image": "https://d2lswn7b0fl4u2.cloudfront.net/photos/pg-recipes-americano-1571757341897.jpg",
+            "image": "https://mithra.coffee/blog/wp-content/uploads/2021/02/americano-nasil-yapilir-evde-americano-yapimi.jpg",
+            "detailImage":"https://www.gastrofests.com/wp-content/uploads/2018/09/AMERICANO_CAPPUCCINO-2.jpg",
             "make" : "Basitçe espressonun üzerine su eklenmesiyle hazırlanmaktadır. Eşit oranda su ve espresso ile americano hazırlarken fincanın ısıtılmış olmasına özen gösterilmelidir. Ancak eşit oran, istenen sertlik ya da yumuşaklık unsuruna göre değiştirilebilir. Kremanın üstte kalması için evde hazırlanacak americanoda, suya fincanın kenarından espresso eklemek ve sonrasında karıştırmamak daha doğrudur."
         }
     ],
