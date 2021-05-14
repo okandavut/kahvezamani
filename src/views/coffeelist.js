@@ -29,33 +29,32 @@ function CoffeeListScreen({ navigation }) {
   const lapsList = CONTENT.map((data) => {
     return (
       <View style={styles.card}>
+        <TouchableOpacity 
+            onPress={() => {
+              navigation.navigate("Detail", {
+                coffeeTitle: data.title,
+              });
+            }}>
         <Card>
-          <Card.Title title={data.title} />
-          <Card.Content />
+
+        {data.title &&
+          <Text style={styles.coffeeNameTitle}>
+          {data.title}
+          </Text>
+        }
           <Card.Cover
             source={{
               uri: data.image,
             }}
           />
-          <Card.Actions>
-            <Button
-              icon={
-                <Icon
-                  name="coffee"
-                  size={14}
-                  style={{ marginRight: 5, marginTop: 2 }}
-                  color="white"
-                />
-              }
-              onPress={() => {
-                navigation.navigate("Detail", {
-                  coffeeTitle: data.title,
-                });
-              }}
-              title="Kahve Bilgisi ve Yapılışı"
+           <Icon
+              name="arrow-right"
+              size={25}
+              style={styles.goDetailArrow}
+              color="white"
             />
-          </Card.Actions>
         </Card>
+        </TouchableOpacity>
       </View>
     );
   });
@@ -68,7 +67,9 @@ function CoffeeListScreen({ navigation }) {
 }
 function CoffeeListStack() {
   return (
-    <HomeStack.Navigator>
+    <HomeStack.Navigator screenOptions={{
+      cardStyleInterpolator: forLeftSlide
+      }}>
       <HomeStack.Screen
         name="Home"
         component={CoffeeListScreen}
@@ -80,9 +81,44 @@ function CoffeeListStack() {
 }
 export default CoffeeListStack;
 
+
+const forLeftSlide = ({index, current, next, layouts: {screen}}) => {
+  const translateX = current.progress.interpolate({
+      inputRange: [index - 1, index, index + 1],
+      outputRange: [screen.width, 0, 0],
+  });
+
+  const opacity = next?.progress.interpolate({
+      inputRange: [0, 1, 2],
+      outputRange: [1, 0, 0],
+  });
+
+  return {cardStyle: {opacity, transform: [{translateX}]}};
+};
+
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#F5FCFF",
+    color:"white"
   },
+  coffeeNameTitle: {
+    position: "absolute", 
+    zIndex: 999,
+    color:"white",
+    fontSize:20,
+    fontWeight:"bold",
+    borderColor:"black",
+    color:'#FFFFFF',
+    fontFamily:'Times New Roman',
+    padding:15,
+    textShadowColor:'#585858',
+    textShadowRadius:5
+  },
+  goDetailArrow: {
+    position:"absolute",
+    paddingLeft:"90%",
+    paddingTop:"23%"
+  }
 });

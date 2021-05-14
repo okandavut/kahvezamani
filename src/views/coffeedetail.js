@@ -27,7 +27,7 @@ function CoffeeDetailScreen({route, navigation}) {
       <View style={styles.container}>
         <View style={styles.bodyContainer}>
           <Image
-            source={{uri: lapsList[0].image}}
+            source={{uri: lapsList[0].detailImage}}
             style={{width: 500, height: 400}}
           />
           <View
